@@ -133,16 +133,16 @@ module "web_server" {
 # print public ip and dns to terminal
 # https://developer.hashicorp.com/terraform/language/values/outputs
 output "instance_ip_address" {
-  description = "Public IP of the web server"
+  description = "Instance IP address"
   value       = module.web_server.instance_ip_address
 }
 
 output "instance_dns_name" {
-  description = "Public DNS of the web server"
+  description = "Instance DNS name"
   value       = module.web_server.instance_dns_name
 }
 
 output "instance_id" {
-  description = "ID of the web server instance"
+  description = "Instance ID"
   value       = module.web_server.instance_id
 }
