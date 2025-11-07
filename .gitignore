@@ -1,13 +1,5 @@
-# Terraform state files
 *.tfstate
 *.tfstate.backup
-
-# Local Terraform directories
 .terraform/
-
-# Terraform crash logs
-crash.log
-
-# SSH keys or sensitive files
 *.pem
 *.key
