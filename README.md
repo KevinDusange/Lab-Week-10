@@ -1,3 +1,3 @@
 # Lab Week 10
 
-### By: Kevin Dusange, Philip Flores
+### By: Kevin Dusange, Philip Flores, Gautam Dhoophar
