@@ -4,9 +4,4 @@ resource "aws_instance" "web" {
   key_name               = var.key_name
   vpc_security_group_ids = var.vpc_security_group_ids
   subnet_id              = var.subnet_id
-
-  tags = {
-    Name    = "${var.project_name}-web-server"
-    Project = var.project_name
-  }
 }
